@@ -2,3 +2,5 @@
   "private": true,
   "workspaces": {
 "packages": [
+  "contracts",
+      "client",
