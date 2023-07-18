@@ -7,3 +7,5 @@
  "deps/hljs"
     ]
   },
+ "dependencies": {
+    "highlight.js": "^10.7.2",
