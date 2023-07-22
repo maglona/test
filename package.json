@@ -16,3 +16,4 @@
  },
   "scripts": {
     "test": "cd contracts && hardhat test",
+ "leaderboard:oldCrawler": "node client/leaderboard/scripts/crawlers/crawlHistoricalData/index.cjs",
