@@ -11,13 +11,4 @@
     "highlight.js": "^10.7.2",
   "react-loader-spinner": "^5.3.4"
   },
-  "resolutions": {
-    "**/highlight.js": "10.7.2-local"
-  "scripts": {
-  "test": "cd contracts && hardhat test",
-   
-  "compile:contracts": "cd contracts && hardhat clean && hardhat compile",
-  "deploy:contracts": "yarn compile:contracts && node --experimental-json-modules client/scripts/deploy_contracts.mjs",
-    "upgrade:proxy": "yarn compile:contracts && node --experimental-json-modules client/scripts/upgrade_proxy.mjs",
- "supersede:level": "yarn compile:contracts && node --experimental-json-modules client/scripts/supersede_level.mjs", 
- "network": "cd contracts && hardhat node",
+
