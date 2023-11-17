@@ -14,4 +14,4 @@
 "resolutions": {
     "**/highlight.js": "10.7.2-local"
   "scripts": {
-  
+   "test": "cd contracts && hardhat test",
